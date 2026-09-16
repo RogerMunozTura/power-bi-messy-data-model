@@ -46,12 +46,6 @@ No defined structure, several tables overlapping or contradicting each other, an
 **After** — the model I built from them:
 ![After: the model](images/after-model.png)
 
-## A few things I noticed along the way
-
-- 4 of the 23 sheets didn't end up in the final model at all — a duplicate, an unused table, and a couple of staging lists that got absorbed elsewhere. Not everything you're handed belongs in the model.
-- Customer information was scattered across three different sheets, under two different ID names that turned out to be the same thing — had to untangle that before anything else could be built.
-- I used the geography table twice for the same fact table (billing city and shipping city), instead of duplicating it, since it's the same kind of data used in two different ways.
-- While documenting, I found a likely typo in one of my own columns (`untis`, probably meant to be `units`) and an unnamed leftover measure — leaving them noted here rather than hiding them, since that's part of being honest about a work-in-progress.
 
 ## Repository Structure
 
